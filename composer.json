@@ -1,0 +1,27 @@
+{
+    "name": "mateen/php",
+    "description": "Test project for Falabella assignment.",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "mateen\\PHP\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "mateen\\PHP\\": "tests"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

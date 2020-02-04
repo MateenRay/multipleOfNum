@@ -1,8 +1,7 @@
 <?php
 
-include 'CheckForMultipleNum.php';
-include 'Display.php';
-
+ include 'CheckForMultipleNum.php';
+ include 'Display.php';
 
 class Main
 {
@@ -25,6 +24,3 @@ class Main
         }
     }
 }
-
-$mn = new Main();
-$mn->printNum(0, 100);

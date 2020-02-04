@@ -1,7 +1,6 @@
 <?php
 
 
-
 class CheckForMultipleNum
 {
     public function calc ($number = 1, $param1 = 1, $param2 = 1) {
